@@ -1,0 +1,10 @@
+node_modules
+e2e
+documentation
+changelog.md
+readme.md
+tsconfig.json
+tslint.json
+protactor.conf.js
+karma.conf.js
+angular-cli.json
