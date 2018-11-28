@@ -132,7 +132,7 @@
             <!--If is a single link-->
             <a [routerLink]="[menuitem.path]" *ngIf="menuitem.type === 'link'">
                 <i class="{{menuitem.icontype}}"></i>
-                <p>{{menuitem.title}}</p>
+                <p>{{menuitem.title}} - Test</p>
             </a>
             <!--If it have a submenu-->
             <a data-toggle="collapse" href="#{{menuitem.title}}" *ngIf="menuitem.type === 'sub'">
